@@ -1,6 +1,6 @@
 # Quick Nginx Server
 
-To expose simple data json
+To expose simple data
 
 
 ## Getting Started
