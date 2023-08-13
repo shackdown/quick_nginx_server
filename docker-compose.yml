@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  web:
+    image: nginx:latest
+    container_name: quick_nginx_server
+    ports:
+      - "80:80"
+    volumes:
+      - ./core.conf:/etc/nginx/conf.d/core.conf
+      - ./html:/usr/share/nginx/html
